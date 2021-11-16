@@ -21,3 +21,8 @@ class Point:
         x = self._x * -1
         y = self._y * -1
         return Point(x, y)
+
+    def is_zero(self):
+        '''Returns whether or not the point is 0 at x = 0.
+        '''
+        return self._x == 0
