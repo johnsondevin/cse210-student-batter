@@ -7,5 +7,6 @@ class ControlActorsAction(Action):
 
     def execute(self, cast):
         direction = self._input_service.get_direction()
-        robot = cast['robot'][0]
-        robot.set_velocity(direction)
+        # robot = cast['robot'][0]
+        # robot.set_velocity(direction)
+        paddle = cast['paddle']
